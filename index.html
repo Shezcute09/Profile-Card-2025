@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiemezie Nkiruka Okechukwu - Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <article class="profile-card" data-testid="test-profile-card">
+        <header class="profile-header">
+            <figure class="avatar-container">
+                <img src="./chichi.jpg" alt="Chiemezie Nkiruka Okechukwu" data-testid="test-user-avatar" class="avatar">
+                <figcaption class="visually-hidden">Profile picture of Chiemezie Nkiruka Okechukwu</figcaption>
+            </figure>
+            <div class="profile-info">
+                <h2 data-testid="test-user-name" class="user-name">Chiemezie Nkiruka Okechukwu</h2>
+                <p data-testid="test-user-bio" class="user-bio">I am a frontend developer with over 2 years of
+                    experience. I am passionate about building websites with beautiful user interface and great user
+                    experience.</p>
+                <div data-testid="test-user-time" class="current-time" id="currentTime"></div>
+            </div>
+        </header>
+
+        <nav class="social-links" aria-label="Social media links">
+            <ul data-testid="test-user-social-links" class="social-list">
+                <li>
+                    <a href="https://linkedin.com/in/chiemezie-okechukwu" target="_blank" rel="noopener noreferrer"
+                        data-testid="test-user-social-linkedin" class="social-link">
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/chiemezieok3" target="_blank" rel="noopener noreferrer"
+                        data-testid="test-user-social-twitter" class="social-link">
+                        Twitter
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="interests-section" aria-labelledby="hobbies-heading">
+            <h3 id="hobbies-heading">Hobbies</h3>
+            <ul data-testid="test-user-hobbies" class="interests-list">
+                <li>Singing</li>
+                <li>Dancing</li>
+                <li>Acting</li>
+            </ul>
+        </section>
+
+        <section class="interests-section" aria-labelledby="dislikes-heading">
+            <h3 id="dislikes-heading">Dislikes</h3>
+            <ul data-testid="test-user-dislikes" class="interests-list">
+                <li>Dishonesty</li>
+                <li>Cruelty</li>
+            </ul>
+        </section>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
