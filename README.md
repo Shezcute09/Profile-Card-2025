@@ -24,5 +24,5 @@ A responsive, accessible profile card component built with vanilla HTML, CSS, an
 1. Clone the repository:
 
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/Shezcute09/Profile-Card-2025.git
 ```
