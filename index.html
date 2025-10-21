@@ -9,55 +9,65 @@
 </head>
 
 <body>
-    <article class="profile-card" data-testid="test-profile-card">
-        <header class="profile-header">
-            <figure class="avatar-container">
-                <img src="./chichi.jpg" alt="Chiemezie Nkiruka Okechukwu" data-testid="test-user-avatar" class="avatar">
-                <figcaption class="visually-hidden">Profile picture of Chiemezie Nkiruka Okechukwu</figcaption>
-            </figure>
-            <div class="profile-info">
-                <h2 data-testid="test-user-name" class="user-name">Chiemezie Nkiruka Okechukwu</h2>
-                <p data-testid="test-user-bio" class="user-bio">I am a frontend developer with over 2 years of
-                    experience. I am passionate about building websites with beautiful user interface and great user
-                    experience.</p>
-                <div data-testid="test-user-time" class="current-time" id="currentTime"></div>
-            </div>
-        </header>
+    <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+            <li><a href="index.html" class="nav-link active">Profile</a></li>
+            <li><a href="about.html" class="nav-link">About Me</a></li>
+            <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+    </nav>
 
-        <nav class="social-links" aria-label="Social media links">
-            <ul data-testid="test-user-social-links" class="social-list">
-                <li>
-                    <a href="https://linkedin.com/in/chiemezie-okechukwu" target="_blank" rel="noopener noreferrer"
-                        data-testid="test-user-social-linkedin" class="social-link">
-                        LinkedIn
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/chiemezieok3" target="_blank" rel="noopener noreferrer"
-                        data-testid="test-user-social-twitter" class="social-link">
-                        Twitter
-                    </a>
-                </li>
-            </ul>
-        </nav>
+    <main class="main-container">
+        <article class="profile-card" data-testid="test-profile-card">
+            <header class="profile-header">
+                <figure class="avatar-container">
+                    <img src="./chichi.jpg" alt="Chiemezie Nkiruka Okechukwu" data-testid="test-user-avatar"
+                        class="avatar">
+                    <figcaption class="visually-hidden">Profile picture of Chiemezie Nkiruka Okechukwu</figcaption>
+                </figure>
+                <div class="profile-info">
+                    <h2 data-testid="test-user-name" class="user-name">Chiemezie Nkiruka Okechukwu</h2>
+                    <p data-testid="test-user-bio" class="user-bio">I am a frontend developer with over 2 years of
+                        experience</p>
+                    <div data-testid="test-user-time" class="current-time" id="currentTime"></div>
+                </div>
+            </header>
 
-        <section class="interests-section" aria-labelledby="hobbies-heading">
-            <h3 id="hobbies-heading">Hobbies</h3>
-            <ul data-testid="test-user-hobbies" class="interests-list">
-                <li>Singing</li>
-                <li>Dancing</li>
-                <li>Acting</li>
-            </ul>
-        </section>
+            <nav class="social-links" aria-label="Social media links">
+                <ul data-testid="test-user-social-links" class="social-list">
+                    <li>
+                        <a href="https://linkedin.com/in/chiemezie-okechukwu" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-linkedin" class="social-link">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/chiemezieok3" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-twitter" class="social-link">
+                            Twitter
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
-        <section class="interests-section" aria-labelledby="dislikes-heading">
-            <h3 id="dislikes-heading">Dislikes</h3>
-            <ul data-testid="test-user-dislikes" class="interests-list">
-                <li>Dishonesty</li>
-                <li>Cruelty</li>
-            </ul>
-        </section>
-    </article>
+            <section class="interests-section" aria-labelledby="hobbies-heading">
+                <h3 id="hobbies-heading">Hobbies</h3>
+                <ul data-testid="test-user-hobbies" class="interests-list">
+                    <li>Singing</li>
+                    <li>Dancing</li>
+                    <li>Acting</li>
+                </ul>
+            </section>
+
+            <section class="interests-section" aria-labelledby="dislikes-heading">
+                <h3 id="dislikes-heading">Dislikes</h3>
+                <ul data-testid="test-user-dislikes" class="interests-list">
+                    <li>Dishonesty</li>
+                    <li>Cruelty</li>
+                </ul>
+            </section>
+        </article>
+    </main>
 
     <script src="script.js"></script>
 </body>
